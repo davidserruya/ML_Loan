@@ -31,7 +31,7 @@ def fit_model(tabValues):
 def do_home():
     HtmlFile = open("home_page.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
-    components.html(source_code,height=3000,height = 600)   
+    components.html(source_code,height=3000)   
 
 def do_dashboard():
     st.markdown("<h1 style='text-align: center;padding-top:0rem;padding-bottom:0rem'>DASHBOARD</h1>", unsafe_allow_html=True) 
