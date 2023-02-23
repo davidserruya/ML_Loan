@@ -56,7 +56,7 @@ $ git pull
 $ git add *
 
 # Record changes to the repository with clean message
-$ git commit -m "la description du commit" 
+$ git commit -m "commit description" 
 
 # Update remote refs along with associated objects
 $ git push
