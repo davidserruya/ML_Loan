@@ -41,7 +41,7 @@ $ python -m pip install sklearn
 
 ## Démonstration
 
-> The application is already online. You can test it by clicking [here] ().
+> The application is already online. You can test it by clicking [here]().
 
 ## GIT Commands
 
@@ -71,7 +71,7 @@ For more explanation about the functioning of this API you can refer to the offi
 - [SKLearn docs](https://scikit-learn.org/stable/).
 - [Pandas docs](https://pandas.pydata.org/).
 - [streamlit docs](https://streamlit.io/).
-- [Looker Studio] (https://cloud.google.com/looker/docs?hl=fr/).
+- [Looker Studio](https://cloud.google.com/looker/docs?hl=fr/).
 
 ## Contributor
 
