@@ -13,7 +13,7 @@ st.markdown(""" <style> .block-container {padding-top: 2.5rem; padding-bottom: 0
 # recovery of dataset
 @st.cache_data  
 def load_data():
-    df = pd.read_csv("/Users/david/Desktop/spam2/loan_final.csv")
+    df = pd.read_csv("datasets/loan_final.csv")
     X = df.drop(columns='Loan_Status')
     y = df['Loan_Status']
     return X,y
@@ -29,7 +29,7 @@ def fit_model(tabValues):
 
 #Functions of navbar menu
 def do_home():
-    HtmlFile = open("test.html", 'r', encoding='utf-8')
+    HtmlFile = open("home_page.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     components.html(source_code,height=1500)   
 
@@ -113,9 +113,9 @@ def do_BLAForm():
 
             with col4:
               if result==1:
-                st.image("/Users/david/Desktop/spam2/approved.png", width = 600)
+                st.image("pictures/approved.png", width = 600)
               else:
-                st.image("/Users/david/Desktop/spam2/rejected.png", width = 600)
+                st.image("pictures/rejected.png", width = 600)
 
 
 # Display navbar menu 
