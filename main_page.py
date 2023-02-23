@@ -45,7 +45,7 @@ def do_dataset():
 
     with col1:  
         st.markdown("<h1 style='text-align: center;padding-top:0rem'>DATASET</h1>", unsafe_allow_html=True)  
-        components.iframe("https://lookerstudio.google.com/embed/reporting/b358e800-4264-449c-8bd8-78279bc1c681/page/knFGD", width=750, height=750, scrolling=True)
+        components.iframe("https://lookerstudio.google.com/embed/reporting/b358e800-4264-449c-8bd8-78279bc1c681/page/knFGD", width=850, height=850, scrolling=True)
 
     with col2:
         st.markdown("<h1 style='text-align: center;padding-top:0rem;padding-bottom:2rem'>DATA DESCRIPTION</h1>", unsafe_allow_html=True)
