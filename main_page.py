@@ -37,7 +37,7 @@ def do_dashboard():
     st.markdown("<h1 style='text-align: center;padding-top:0rem;padding-bottom:0rem'>DASHBOARD</h1>", unsafe_allow_html=True) 
     col1, col2, col3 = st.columns([1,6,1])
     with col2: 
-        components.iframe("https://lookerstudio.google.com/embed/reporting/0fb09256-3d8b-4fbd-80c6-a81300c7f525/page/8MFGD", width=1300, height=1300, scrolling=True)
+        components.iframe("https://lookerstudio.google.com/embed/reporting/0fb09256-3d8b-4fbd-80c6-a81300c7f525/page/8MFGD", width=1000, height=1000, scrolling=True)
     
 
 def do_dataset():
