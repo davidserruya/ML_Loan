@@ -29,6 +29,14 @@ def fit_model(tabValues):
 
 #Functions of navbar menu
 def do_home():
+    STREAMLIT_STATIC_PATH = Path(st.__path__[0]) / 'static'
+    CSS_PATH = (STREAMLIT_STATIC_PATH / "assets/css")
+    if not CSS_PATH.is_dir():
+    CSS_PATH.mkdir()
+
+    css_file = CSS_PATH / "table_style.css"
+    if not css_file.exists():
+    shutil.copy("assets/css/table_style.css", css_file)
     HtmlFile = open("home_page.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     components.html(source_code,height=1500)   
