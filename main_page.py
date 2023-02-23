@@ -49,7 +49,7 @@ def do_dataset():
 
     with col2:
         st.markdown("<h1 style='text-align: center;padding-top:0rem;padding-bottom:2rem'>DATA DESCRIPTION</h1>", unsafe_allow_html=True)
-        data = pd.read_csv("/Users/david/Desktop/spam2/dataset_description.csv") 
+        data = pd.read_csv("datasets/dataset_description.csv") 
         st.write(data)
     
 def do_BLAForm():
