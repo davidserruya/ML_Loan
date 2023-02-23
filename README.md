@@ -1,6 +1,6 @@
 # Home Lean Project
 
-> This project is an application to determine a client's eligibility for a bank mortgage based on a machine learning algorithm.
+> This project is an application to determine a client's eligibility for a bank home loan based on a machine learning algorithm.
 
 ## Project Tools
 
