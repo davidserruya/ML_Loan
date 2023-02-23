@@ -1,0 +1,14 @@
+Variable,Description
+Loan_ID,Unique Loan ID
+Sex,Male/Female
+Marital status,Person's relationship with a significant other (Married/Divorced/Single/Widowed)
+Dependents,Number of dependents
+Graduated,Applicant Education (Graduated/Not Graduated)
+Self Employed,Self employed (Yes/Not)
+Applicant Income,Applicant income per month
+Coapplicant Income,Coapplicant income per month
+LoanAmount,Loan amount in thousands
+Loan Amount Terms,Term of loan in months
+Credit History,credit history meets guidelines
+Property Area,Urban/Semi Urban/Rural
+Loan Status,Loan approved (Approved/Rejected)
