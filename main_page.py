@@ -41,7 +41,7 @@ def do_dashboard():
     
 
 def do_dataset():
-    col1, col2 = st.columns([2,1])
+    col1, col2 = st.columns([3,1])
 
     with col1:  
         st.markdown("<h1 style='text-align: center;padding-top:0rem'>DATASET</h1>", unsafe_allow_html=True)  
