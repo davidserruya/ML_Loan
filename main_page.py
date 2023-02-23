@@ -113,9 +113,9 @@ def do_BLAForm():
 
             with col4:
               if result==1:
-                st.image("pictures/approved.png", width = 400)
+                st.image("pictures/approved.png", width = 500)
               else:
-                st.image("pictures/rejected.png", width = 400)
+                st.image("pictures/rejected.png", width = 500)
 
 
 # Display navbar menu 
