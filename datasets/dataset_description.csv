@@ -1,5 +1,5 @@
 Variable,Description
-Loan_ID,Unique Loan ID
+ID,Unique Loan ID
 Sex,Male/Female
 Marital status,Person's relationship with a significant other (Married/Divorced/Single/Widowed)
 Dependents,Number of dependents
