@@ -10,5 +10,5 @@ scipy==1.7.3
 sklearn==0.0
 nltk==3.5
 streamlit==1.18.1
-streamlit-option-menu==0.2.10
+streamlit-option-menu==0.3.2
 zipfile36==0.1.3
