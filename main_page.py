@@ -117,8 +117,7 @@ def do_BLAForm():
 
 
 # Display navbar menu 
-with st.sidebar:
- with st.expander("Main Menu"):
+with st.expander("Main Menu"):
   selected = option_menu("Main Menu", 
     ["Home", "Dashboard","BLA Form","Dataset"], 
     icons=["house", "bi bi-file-earmark-bar-graph","bi bi-file-earmark-text","server"],
